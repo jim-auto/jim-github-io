@@ -3,16 +3,16 @@ const TWEETS = [
   // 3/10 - 顔スコア点数化
   {
     date: "2026-03-10",
-    text: "そういった割合を点数化してる感じですね！下記とか！まだ作ったばかりなので改善の余地は大いにありですが！",
+    text: "🍐の毎日の無料ライクは手動でやってたんだけど、面倒臭くなってきたので相手のプロフ画像と文をスコア化して閾値を越えたらライクするようにした",
     likes: 2,
-    images: []
+    images: ["https://pbs.twimg.com/media/HDDE1R-bkAAXdcl?format=jpg&name=900x900", "https://pbs.twimg.com/media/HDDR-O-aEAAnYAi?format=png&name=small"]
   },
   // 2/27 - 🔥bot
   {
     date: "2026-02-27",
     text: "🔥bot動かしたら勝手にAIがファーストメッセを解析してくれて、ありがと系よりも質問系・褒め系の方が返信率が高いことがわかった",
     likes: 5,
-    images: []
+    images: ["https://pbs.twimg.com/media/HCI8LHRa0AApYzA?format=jpg&name=small"]
   },
   // 2/19 - カメラハック
   {
@@ -54,21 +54,21 @@ const TWEETS = [
     date: "2026-02-10",
     text: "AIピカさんを作った",
     likes: 18,
-    images: []
+    images: ["https://pbs.twimg.com/media/HAwZ3cMb0AAbyqP?format=jpg&name=900x900", "https://pbs.twimg.com/media/HAwZ3cNaAAEy9t6?format=jpg&name=900x900", "https://pbs.twimg.com/media/HAwkJxPbMAA8uVN?format=jpg&name=900x900", "https://pbs.twimg.com/media/HAwkJxGaAAA_bSb?format=jpg&name=900x900"]
   },
   // 2/8 - ストナンtips
   {
     date: "2026-02-08",
     text: "想像していたお○んぽ侍さんの集大成ストナンtips",
     likes: 8,
-    images: []
+    images: ["https://pbs.twimg.com/media/HAnwXtQacAAAXKH?format=png&name=900x900"]
   },
   // 2/5 - AI返信レポート
   {
     date: "2026-02-05",
     text: "マチアプAIの返信レポートを見てひたすら添削してる☑️",
     likes: 4,
-    images: []
+    images: ["https://pbs.twimg.com/media/HAbsMMkaQAAlOte?format=jpg&name=small"]
   },
   // 2/5 - ツイート取得ツール
   {
@@ -96,7 +96,7 @@ const TWEETS = [
     date: "2026-01-20",
     text: "位置共有アプリの位置偽造アプリを作った（）",
     likes: 9,
-    images: []
+    images: ["https://pbs.twimg.com/media/G_EWMnAWMAAfVmo?format=jpg&name=900x900", "https://pbs.twimg.com/media/G_EWMm6WUAAgjXj?format=jpg&name=medium"]
   },
   // 12/30 - 自動ローラーbot
   {
