@@ -1,12 +1,5 @@
 // ハイライトツイート（技術系）
 const TWEETS = [
-  // 3/10 - 顔スコア点数化
-  {
-    date: "2026-03-10",
-    text: "🍐の毎日の無料ライクは手動でやってたんだけど、面倒臭くなってきたので相手のプロフ画像と文をスコア化して閾値を越えたらライクするようにした",
-    likes: 2,
-    images: ["https://pbs.twimg.com/media/HDDE1R-bkAAXdcl?format=jpg&name=900x900", "https://pbs.twimg.com/media/HDDR-O-aEAAnYAi?format=png&name=small"]
-  },
   // 2/27 - 🔥bot
   {
     date: "2026-02-27",
@@ -27,13 +20,6 @@ const TWEETS = [
     text: "プロフ写真用のAI画像生成サービスを試作して見たけど、良いユーザーインターフェース、エクスペリエンスやプロンプトの作り込みがめんどい",
     likes: 5,
     images: ["https://pbs.twimg.com/media/HBiguuSbUAE3Irh?format=jpg&name=900x900"]
-  },
-  // 2/19 - ライン版
-  {
-    date: "2026-02-19",
-    text: "ライン版もある",
-    likes: 4,
-    images: ["https://pbs.twimg.com/media/HBih2DsagAAJmch?format=jpg&name=medium"]
   },
   // 2/13 - 自動スワイプログ
   {
@@ -83,13 +69,6 @@ const TWEETS = [
     text: "🍎の自動ファーストメッセ！",
     likes: 9,
     images: ["https://pbs.twimg.com/amplify_video_thumb/2016874940507828225/img/hu9JCeonUYv-Rzxe.jpg"]
-  },
-  // 1/29 - 生粋レポジトリ
-  {
-    date: "2026-01-29",
-    text: "生粋レポジトリ",
-    likes: 7,
-    images: ["https://pbs.twimg.com/media/G_zUQkHbUAYZ6g0?format=jpg&name=900x900"]
   },
   // 1/20 - 位置偽造アプリ
   {
