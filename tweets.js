@@ -1,6 +1,13 @@
 // 画像付きツイート（DBから取得、likes降順）
 const TWEETS = [
   {
+    date: "2026-02-19",
+    text: "🍎の写真認証の際のカメラをハックしてあらかじめ用意した写真を差し込めた！",
+    likes: 18,
+    category: "tech",
+    images: ["https://pbs.twimg.com/media/HBjMT-2bUAEVn7R?format=jpg&name=900x900"]
+  },
+  {
     date: "2026-01-29",
     text: "🍎の自動ファーストメッセ！",
     likes: 9,
@@ -79,11 +86,32 @@ const TWEETS = [
     images: ["https://pbs.twimg.com/media/HBih2DsagAAJmch?format=jpg&name=medium"]
   },
   {
+    date: "2025-12-30",
+    text: "チャットアプリ自動ローラーbot作ってる🛼",
+    likes: 3,
+    category: "tech",
+    images: ["https://pbs.twimg.com/media/G9aqFlsasAEqhP8?format=jpg&name=900x900"]
+  },
+  {
     date: "2026-02-05",
     text: "指定したユーザーのツイート取得ツールを作った",
     likes: 3,
     category: "tech",
     images: ["https://pbs.twimg.com/media/HAWrx-6acAUQ2fM?format=jpg&name=900x900"]
+  },
+  {
+    date: "2026-02-13",
+    text: "🔥の自動スワイプ、せっかくなのでログを保存することにした\n解析したりスワイプ改良する",
+    likes: 3,
+    category: "tech",
+    images: ["https://pbs.twimg.com/media/HBCNe14bcAAYbat?format=jpg&name=900x900"]
+  },
+  {
+    date: "2026-02-13",
+    text: "ラインも自動化しようとしてる",
+    likes: 3,
+    category: "tech",
+    images: ["https://pbs.twimg.com/media/HBCNCoYa0AA_N1R?format=jpg&name=900x900"]
   },
   {
     date: "2025-11-25",
