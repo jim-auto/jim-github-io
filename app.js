@@ -18,6 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <span class="tweet-likes">${t.likes} likes</span>
         </div>
         <div class="tweet-text">${escapeHtml(t.text)}</div>
+        ${t.images && t.images.length ? `<div class="tweet-images">${t.images.map(url => `<img src="${url}" alt="" loading="lazy">`).join("")}</div>` : ""}
         <div class="tweet-category">
           <span class="tag">${categoryLabel(t.category)}</span>
         </div>

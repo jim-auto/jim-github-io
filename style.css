@@ -180,6 +180,21 @@ h2 {
   word-break: break-word;
 }
 
+.tweet-images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+
+.tweet-images img {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #30363d;
+  object-fit: cover;
+  max-height: 300px;
+}
+
 .tweet-category {
   margin-top: 0.6rem;
 }
