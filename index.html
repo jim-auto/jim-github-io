@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jim_nanpa - ストナン実践記録</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <h1>@jim_nanpa</h1>
+      <p class="tagline">名古屋拠点のストナン実践者 / 美容投資 / ネトナン自動化</p>
+      <div class="stats">
+        <div class="stat">
+          <span class="stat-num">491+</span>
+          <span class="stat-label">ツイート (2025)</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">16</span>
+          <span class="stat-label">最高いいね</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">2025~</span>
+          <span class="stat-label">活動期間</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="about">
+      <h2>About</h2>
+      <p>ストリートナンパ（ストナン）を中心に、美容投資・マッチングアプリ自動化・クラブナンパなど幅広く活動中。「アツスト名古屋支部」所属。理論と実践を両立させながら日々成長を追求しています。</p>
+      <div class="tags">
+        <span class="tag">ストナン</span>
+        <span class="tag">美容投資</span>
+        <span class="tag">ネトナン自動化</span>
+        <span class="tag">クラナン</span>
+        <span class="tag">名古屋</span>
+        <span class="tag">アツスト名古屋支部</span>
+      </div>
+    </section>
+
+    <section class="tweets">
+      <h2>人気ツイート</h2>
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">すべて</button>
+        <button class="filter-btn" data-filter="practice">実践</button>
+        <button class="filter-btn" data-filter="mindset">マインド</button>
+        <button class="filter-btn" data-filter="tech">テック</button>
+        <button class="filter-btn" data-filter="beauty">美容</button>
+      </div>
+      <div id="tweet-list" class="tweet-list">
+        <!-- JS で描画 -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p><a href="https://twitter.com/jim_nanpa" target="_blank" rel="noopener">@jim_nanpa on X</a></p>
+  </footer>
+
+  <script src="tweets.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
