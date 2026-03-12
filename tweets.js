@@ -1,4 +1,4 @@
-// 画像付きツイート（likes >= 1、DBから取得）
+// 画像付きツイート（DBから取得、likes降順）
 const TWEETS = [
   {
     date: "2026-01-29",
@@ -25,6 +25,13 @@ const TWEETS = [
       "https://pbs.twimg.com/media/GLoMg8qacAA_n05?format=jpg&name=small",
       "https://pbs.twimg.com/media/GLoMg8pbIAADu7K?format=jpg&name=small"
     ]
+  },
+  {
+    date: "2026-02-19",
+    text: "プロフ写真用のAI画像生成サービスを試作して見たけど、良いユーザーインターフェース、エクスペリエンスやプロンプトの作り込みがめんどい",
+    likes: 5,
+    category: "tech",
+    images: ["https://pbs.twimg.com/media/HBiguuSbUAE3Irh?format=jpg&name=900x900"]
   },
   {
     date: "2025-08-19",
@@ -63,6 +70,13 @@ const TWEETS = [
     likes: 4,
     category: "beauty",
     images: ["https://pbs.twimg.com/media/Glqt83fbsAAzINU?format=jpg&name=900x900"]
+  },
+  {
+    date: "2026-02-19",
+    text: "ライン版もある",
+    likes: 4,
+    category: "tech",
+    images: ["https://pbs.twimg.com/media/HBih2DsagAAJmch?format=jpg&name=medium"]
   },
   {
     date: "2026-02-05",
