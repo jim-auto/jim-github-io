@@ -2,7 +2,7 @@
 const TWEETS = [
   {
     date: "2026-01-29",
-    text: "の自動ファーストメッセ！",
+    text: "🍎の自動ファーストメッセ！",
     likes: 9,
     category: "tech",
     images: ["https://pbs.twimg.com/amplify_video_thumb/2016874940507828225/img/hu9JCeonUYv-Rzxe.jpg"]
@@ -28,7 +28,7 @@ const TWEETS = [
   },
   {
     date: "2025-08-19",
-    text: "これはプロ",
+    text: "これはプロ👏",
     likes: 4,
     category: "practice",
     images: [
@@ -38,7 +38,7 @@ const TWEETS = [
   },
   {
     date: "2025-09-05",
-    text: "KP\n@yumaru_pua",
+    text: "KP @yumaru_pua",
     likes: 4,
     category: "practice",
     images: ["https://pbs.twimg.com/media/G0F8dnFaMAApMpK?format=jpg&name=medium"]
@@ -52,14 +52,14 @@ const TWEETS = [
   },
   {
     date: "2025-03-25",
-    text: "搬だった",
+    text: "🏨搬だった",
     likes: 4,
     category: "practice",
     images: ["https://pbs.twimg.com/media/Gm6tRcIbYAAt4gF?format=jpg&name=small"]
   },
   {
     date: "2025-03-10",
-    text: "買った\nNACで美白はまあええかと思ってたけど、メイク考えると気になってきた",
+    text: "買った🤓\nNACで美白はまあええかと思ってたけど、メイク考えると気になってきた",
     likes: 4,
     category: "beauty",
     images: ["https://pbs.twimg.com/media/Glqt83fbsAAzINU?format=jpg&name=900x900"]
@@ -94,7 +94,7 @@ const TWEETS = [
   },
   {
     date: "2025-09-06",
-    text: "KP @229tai042\n@kirishima_nanpa\n@Lum_x_",
+    text: "KP @229tai042 @kirishima_nanpa @Lum_x_",
     likes: 2,
     category: "practice",
     images: ["https://pbs.twimg.com/media/G0Lg_5PbUAAl_z9?format=jpg&name=small"]
@@ -122,7 +122,7 @@ const TWEETS = [
   },
   {
     date: "2025-11-24",
-    text: "赤枠の最後これでです",
+    text: "赤枠の最後これで🌱です",
     likes: 1,
     category: "practice",
     images: ["https://pbs.twimg.com/media/G6gb8FhaAAAPlr1?format=jpg&name=900x900"]
