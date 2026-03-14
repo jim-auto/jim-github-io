@@ -1,5 +1,12 @@
 // ハイライトツイート（技術系）
 const TWEETS = [
+  // 3/13 - AIの力で松本に
+  {
+    date: "2026-03-13",
+    text: "AIの力で松本人志になった",
+    likes: 4,
+    images: ["https://pbs.twimg.com/tweet_video_thumb/HDSSDnxbMAAZZVb.jpg"]
+  },
   // 2/27 - 🔥bot
   {
     date: "2026-02-27",
