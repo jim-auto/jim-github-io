@@ -91,11 +91,4 @@ const TWEETS = [
     likes: 3,
     images: ["https://pbs.twimg.com/media/G9aqFlsasAEqhP8?format=jpg&name=900x900"]
   },
-  // 12/30 - 自動化したい
-  {
-    date: "2025-12-30",
-    text: "🔥と🍎も自動化したいなぁ",
-    likes: 3,
-    images: []
-  },
 ];
